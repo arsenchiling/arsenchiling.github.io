@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="3.png">
+
+   <!--Чтобы на разных девайсам размер подгонялся -->
+   <meta name="viewport" content= "width=device-width, initial-scale=1">
+  
+   <!-- Иконки font-awesome -->
+  <script src="https://kit.fontawesome.com/c08e77409a.js" crossorigin="anonymous"></script>
+
+  <!--Подключаем приколюху с партиклес жс -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js" ></script>
+ <!--Подключаем бустрап -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js" ></script>
+ 
+   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+  <title>Bootstrap Чилинг</title>
+</head>
+
+<body>
+  <div id="particles-js"></div>
+	<!-- Классы navbar и navbar-default (базовые классы меню) -->
+<nav class="navbar navbar-default">
+  <!-- Контейнер (определяет ширину Navbar) -->
+  <div class="container-fluid">
+    <!-- Заголовок -->
+    <div class="navbar-header" data-toggle="collapse" data-target="#navbar-main">
+      <!-- Кнопка «Гамбургер» отображается только в мобильном виде (предназначена для открытия основного содержимого Navbar) -->
+      <button type="button" class="navbar-toggle collapsed btn  btn-lg"" data-toggle="collapse" data-target="#navbar-main"> <img src="3.png">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!-- Бренд или название сайта (отображается в левой части меню) -->
+      <a class="navbar-brand" 
+
+      href="#">Menu</a>
+    </div>
+    <!-- Основная часть меню (может содержать ссылки, формы и другие элементы) -->
+    <div class="collapse navbar-collapse" id="navbar-main">
+      <!-- Содержимое основной части -->
+       <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#">Ссылка 3</a></li>
+        <li><a href="#">Ссылка 4</a></li>
+        <li><a href="#">Ссылка 5</a></li>
+
+        <!-- Выпадающий список -->
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+          </ul>
+        </li>
+      </ul>
+
+
+    </div>
+  </div>
+</nav>
+
+<div class="container my-5">
+  <div class="row">
+    <div class="col">
+      
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+  <div class="row">
+
+    <div class="col">
+      <div id="table">
+      </div>
+
+    </div>
+  </div>
+</div>
+<footer> 
+  <div class="container">
+    <div class="row">
+      <div class="col py-4">
+        <h2>Социальные сети</h2>
+        <p> Там я веду свою жизнь прекрасную собираю фотографии и сообщения пишите </p>
+
+        <div class="btn-group mt-3" role="group" aria-label="Basic example">
+          <button type="button" class="btn btn-secondary">
+            <a href="https://instagram.com" class="social-button" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </button>
+          <button type="button" class="btn btn-secondary">
+            <a href="tg://resolve?domain=@a_chilling" target="_blank" class="social-button">
+              <i class="fab fa-telegram-plane"></i>
+            </a>
+          </button>
+          <button type="button" class="btn btn-secondary">
+            <a href="https://facebook.com" target="_blank" class="social-button">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</footer>
+<script type="text/javascript" src="2.js"></script>
+<script type="text/javascript" src="particles.js"></script>
+</body>
+
+</html>
